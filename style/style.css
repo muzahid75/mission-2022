@@ -8,6 +8,14 @@
   margin: 0px;
   box-sizing: border-box;
 }
+.template-btn {
+  border-radius: 5px;
+  background: rgb(255, 89, 89);
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  margin-bottom: 15px;
+}
 /* mission section  */
 .mission {
   width: 80%;
@@ -90,14 +98,7 @@ img.banner-img {
 .banner-paragraph {
   margin-bottom: 15px;
 }
-.banner-btn {
-  border-radius: 5px;
-  background: rgb(255, 89, 89);
-  color: white;
-  padding: 15px 25px;
-  border: none;
-  margin-bottom: 15px;
-}
+
 /* develop section  */
 .develop {
   width: 100%;
@@ -182,6 +183,46 @@ img.coading {
 }
 .global-content-paragraph {
   color: rgb(62, 62, 62);
+}
+div.application{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* safe section  */
+.safe {
+  width: 80%;
+  margin: 30px auto 50px auto;
+  padding: 79px 0px 79px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.safe-image{
+  width: 30%;
+  padding: 56px 38px 27px 71px;
+  background:url(../images/shapes/shape-3.png),url(../images/shapes/shape-3.png),url(../images/shapes/shape-3.png);
+  background-repeat: no-repeat;
+  background-position: left top,30px bottom,270px 300px;
+  background-size: 200px 200px,100px 100px, 100px 100px;
+}
+.safe-content{
+  width: 55%;
+}
+img.app{
+  width: 100%;
+  height: 100%;
+}
+.safe-paragraph{
+  color:rgb(62, 62, 62);
+  margin-bottom: 15px;
+}
+.safe-title{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 /* footer section  */
