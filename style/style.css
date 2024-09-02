@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 .lobster-regular {
-    font-family: "Lobster", sans-serif;
-  }
-  
+  font-family: "Lobster", sans-serif;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -50,10 +50,10 @@ span.year {
   margin-bottom: 10px;
 }
 #card-1 {
-    background: rgba(79, 157, 166, 0.1);
+  background: rgba(79, 157, 166, 0.1);
 }
 #card-2 {
-    background: rgba(255, 89, 89, 0.1);
+  background: rgba(255, 89, 89, 0.1);
 }
 #card-3 {
   background: rgb(255, 244, 214);
@@ -68,7 +68,7 @@ span.year {
   background-size: 350px 350px;
   background-position: 70px 70px;
 }
-.develop-parent{
+.develop-parent {
   width: 80%;
   margin: 0px auto;
   display: flex;
@@ -76,39 +76,88 @@ span.year {
   align-items: center;
   gap: 100px;
 }
-.develop-image{
+.develop-image {
   width: 40%;
   border-radius: 35px;
 }
-img.coading{
+img.coading {
   width: 100%;
   height: 100%;
 }
-.develop-content{
+.develop-content {
   width: 60%;
 }
-.develop-content-title{
+.develop-content-title {
   font-size: 36px;
   color: rgb(51, 51, 51);
   font-weight: bold;
   margin-bottom: 10px;
 }
-.develop-content-paragraph{
+.develop-content-paragraph {
   color: rgb(62, 62, 62);
 }
+.btn {
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(255, 89, 89);
+  border: none;
+  padding: 15px 30px;
+  margin-top: 10px;
+}
+
+/* global section  */
+
+.global {
+  width: 100%;
+  margin: 50px auto;
+  background-image: url("../images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-size: 350px 350px;
+  background-position: right bottom;
+  height: 600px;
+}
+.global-parent {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.global-image {
+  width: 40%;
+  border-radius: 35px;
+}
+img.coading {
+  width: 100%;
+  height: 100%;
+}
+.global-content {
+  width: 60%;
+}
+.global-content-title {
+  font-size: 36px;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.global-content-paragraph {
+  color: rgb(62, 62, 62);
+}
+
 /* footer section  */
-footer{
-    background-color: black;
-    padding: 100px;
-    margin: 0px auto;
+footer {
+  background-color: black;
+  padding: 100px;
+  margin: 0px auto;
 }
-.footer-title{
-    font-size: 36px;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
+.footer-title {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.footer-paragraph{
-    color: white;
-    text-align: center;
+.footer-paragraph {
+  color: white;
+  text-align: center;
 }
