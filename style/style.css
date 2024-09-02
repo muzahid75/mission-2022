@@ -58,6 +58,44 @@ span.year {
 #card-3 {
   background: rgb(255, 244, 214);
 }
+
+/* develop section  */
+.develop {
+  width: 100%;
+  margin: 50px auto;
+  background-image: url("../images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-size: 350px 350px;
+  background-position: 70px 70px;
+}
+.develop-parent{
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.develop-image{
+  width: 40%;
+  border-radius: 35px;
+}
+img.coading{
+  width: 100%;
+  height: 100%;
+}
+.develop-content{
+  width: 60%;
+}
+.develop-content-title{
+  font-size: 36px;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.develop-content-paragraph{
+  color: rgb(62, 62, 62);
+}
 /* footer section  */
 footer{
     background-color: black;
